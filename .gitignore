@@ -1,0 +1,12 @@
+/automation/
+/.idea/
+/.venv/
+/build/
+/dist/
+/certs/
+/pomodoro/
+/configuration/secrets_file.py
+/localmaps/
+/playground/
+poetry.lock
+
