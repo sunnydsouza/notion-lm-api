@@ -1,7 +1,11 @@
 # Notion LifeManagement(LM) Automations
 Notion LifeManagement - an api designed to be called/triggered via notion-lm-tampermonkey scripts when running Notion in chrome browser. Helps automates tasks/project managment
 
-This project is 
+This project serves as backend for the [Notion LifeManagement Chrome extenstion project](https://github.com/sunnydsouza/notion-lm-crx)
+If you are using the extension, then you need to just deploy this backend on a accessible machine.
+
+You can also use this standalone for other purposes.I used it as a case study and opportunity to familiarize myself to python and flask. Its my first project.
+
 ## Getting started
 
 ### Requirements
