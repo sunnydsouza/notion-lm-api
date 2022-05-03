@@ -1,18 +1,29 @@
-# notion-lm-api
+# Notion LifeManagement(LM) Automations
 Notion LifeManagement - an api designed to be called/triggered via notion-lm-tampermonkey scripts when running Notion in chrome browser. Helps automates tasks/project managment
 
+This project is 
 ## Getting started
 
-[comment]: <> (### Install)
+### Requirements
+This project requires python > 3.8. Make sure you have it installed.
 
-[comment]: <> (```)
+### Clone the project from github
 
-[comment]: <> (pip install notion_api_py)
+```bash
+git clone https://github.com/sunnydsouza/notion-lm-api.git
+```
 
-[comment]: <> (```)
+### Run the python flask application
+```bash
+python3 -m flask run
 
-## Motivation
-Basically, 
+OR
+
+python3 run app.py
+```
+
+
+[comment]: <> (## Motivation)
 
 
 ## API Reference
@@ -36,6 +47,7 @@ In case you get the below page, then in Chrome, simply type `thisisunsafe` anywh
 
 <details>
   <summary style="font-size:18px"><b>Rollover tasks </b></summary>
+
 ```http
   POST /notionhelper/api/v1/rolloverday
 ```
@@ -50,6 +62,7 @@ In case you get the below page, then in Chrome, simply type `thisisunsafe` anywh
 
 <details>
   <summary style="font-size:18px"><b>Plan tasks</b></summary>
+
 ```http
   POST /notionhelper/api/v1/plantask
 ```
@@ -66,6 +79,7 @@ In case you get the below page, then in Chrome, simply type `thisisunsafe` anywh
 
 <details>
   <summary style="font-size:18px"><b>Complete tasks</b></summary>
+
 ```http
   POST /notionhelper/api/v1/completetask
 ```
@@ -83,6 +97,7 @@ In case you get the below page, then in Chrome, simply type `thisisunsafe` anywh
  
 <details>
   <summary style="font-size:18px"><b>LogHours to completed tasks (used in conjuction with 'Complete tasks' endpoint)</b></summary>
+
 ```http
   POST /notionhelper/api/v1/loghoursCompletedTask
 ```
@@ -100,6 +115,7 @@ In case you get the below page, then in Chrome, simply type `thisisunsafe` anywh
 
 <details>
   <summary style="font-size:18px"><b>LogHours</b></summary>
+
 ```http
   POST /notionhelper/api/v1/loghours
 ```
@@ -117,6 +133,7 @@ In case you get the below page, then in Chrome, simply type `thisisunsafe` anywh
 
 <details>
   <summary style="font-size:18px"><b>Pomotimer</b></summary>
+
 ```http
   POST /notionhelper/api/v1/pomotimer
 ```
@@ -136,6 +153,7 @@ In case you get the below page, then in Chrome, simply type `thisisunsafe` anywh
 
 <details>
   <summary style="font-size:18px"><b>Start pomodomo timer session</b></summary>
+
 ```http
   POST /notionpomo/api/v1/startSession
 ```
@@ -154,7 +172,6 @@ In case you get the below page, then in Chrome, simply type `thisisunsafe` anywh
 <details>
   <summary style="font-size:18px"><b>Rollover release</b></summary>
 
-Stop pomodomo timer session
 ```http
   POST /notionhelper/api/v1/rolloverrelease
 ```
