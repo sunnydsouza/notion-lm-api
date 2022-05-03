@@ -3,7 +3,8 @@
 /.venv/
 /build/
 /dist/
-/certs/
+/certs/server.crt
+/certs/server.key
 /pomodoro/
 /configuration/secrets_file.py
 /localmaps/
