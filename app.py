@@ -264,6 +264,7 @@ def complete_task_with_logged_hours():
 
             updated_task = existing_task.update_page(icon="✅",
                                                      properties={
+                                                         "✅?": True,
                                                          "Priority": done_task_priority,
                                                          "Planned Day": evaltd_planned_days,
                                                          "Planned Week": evaltd_planned_weeks,
