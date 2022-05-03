@@ -1,10 +1,14 @@
 # Notion LifeManagement(LM) Automations
-Notion LifeManagement - an api designed to be called/triggered via notion-lm-tampermonkey scripts when running Notion in chrome browser. Helps automates tasks/project managment
+Notion LifeManagement - an api designed to be called/triggered via **[Sunny's Notion LM Chrome extension](https://github.com/sunnydsouza/notion-lm-crx) OR [Sunny's Notion LM Tampermonkey script(DEPRECATED)](https://github.com/sunnydsouza/notion-lm-tampermonkey)** when running Notion in chrome browser. Helps **AUTOMATES** tasks/project management in **[Sunny's Notion LifeManagement templates](https://www.notion.so/Templates-a73384cbb11a45bdac0af6d04085bb62)**
 
-This project serves as backend for the [Notion LifeManagement Chrome extenstion project](https://github.com/sunnydsouza/notion-lm-crx)
+This project serves as backend for the **[Notion LifeManagement Chrome extenstion project](https://github.com/sunnydsouza/notion-lm-crx)**
 If you are using the extension, then you need to just deploy this backend on a accessible machine.
 
 You can also use this standalone for other purposes.I used it as a case study and opportunity to familiarize myself to python and flask. Its my first project.
+
+## Supporting side/dependent projects
+- [Sunny's Notion LM Chrome extension](https://github.com/sunnydsouza/notion-lm-crx) OR [Sunny's Notion LM Tampermonkey script(deprecated)](https://github.com/sunnydsouza/notion-lm-tampermonkey)
+- [Sunny's Notion LifeManagement templates](https://www.notion.so/Templates-a73384cbb11a45bdac0af6d04085bb62)
 
 ## Getting started
 
