@@ -20,6 +20,8 @@ This project requires python > 3.8. Make sure you have it installed.
 ```bash
 git clone https://github.com/sunnydsouza/notion-lm-api.git
 ```
+### Rename the `configuration/secrets_file.sample.py` to `configuration/secrets_file.py`
+Fill in the `secrets_file.py` with required information.
 
 ### Run the python flask application
 ```bash
